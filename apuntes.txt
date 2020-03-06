@@ -1,0 +1,27 @@
+Framework Front-End o Framework Css
+
+Son una base para inicializar un proyecto web permitiendo flexibilidad en el diseño. Brindan organización y estructura para los archivos html, css y javascript.
+
+.
+
+Componentes Principales de un Framework Front-End
+
+Grilla
+Estilos para las fuentes
+Componentes visuales pre-armados
+.
+
+Razones para usar un Framework Front-End
+
+Ahorrar tiempo de desarrollo
+Componentes visuales pre-armados
+Responsive Design establecido en todo el layout
+El código tiene máxima compatibilidad
+.
+
+Frameworks Front-End
+
+Bootstrap
+Foundation
+Bulma
+Flexbox Grid
