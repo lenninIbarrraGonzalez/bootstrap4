@@ -16,6 +16,15 @@
 position: relative;
 } 
 
+.btn-overlay{
+  background-color: #97c93e;
+  color: white;
+}
+
+.btn-overlay:hover{
+  background-color: #82ad36;;
+}
+
 #carousel .overlay {
  position: absolute ;
  top: 0; 
@@ -38,3 +47,4 @@ position: relative;
 #carrusel .overlay .row{
   height: 100%;
 }
+
