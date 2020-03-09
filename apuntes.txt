@@ -25,3 +25,19 @@ Bootstrap
 Foundation
 Bulma
 Flexbox Grid
+
+
+<div class="col-md-6 offset-md-6 text-right">
+offset corre la columna hacia la izquierda 6 posiciones
+text-right texto a la izquierda
+
+
+text-right: El texto que esta dentro del elemento se corre hacia la derecha.
+text-md-right: El texto se correrá a la derecha a partir de tamaños de pantalla medianos
+text-center: el texto se alineará al centro por defecto.
+offset: Corre los elementos hacia la derecha. Ejemplo:
+col-md-offset-6: Corre a partir de pantallas medianas, 6 elementos hacia la derecha.
+align-items-center: Las columnas dentro de la fila se alinean verticalmente al centro.
+**Nota: **Para poder centrar verticalmente, recordemos que la altura del container y del row ocupan su espacio mínimo, por lo que debemos apuntar a que ocupen el 100% del alto de su elemento padre (overlay), por lo que debemos ponerle un height del 100%.
+d-none: El elemento con esta clase tendrá un display: none por defecto.
+d-md-block: El elemento con esta clase añadida tendrá un display: block a partir de tamaños de pantalla medianos.
