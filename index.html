@@ -35,7 +35,7 @@
                     <a class="nav-link" href="#formulario-orador">Conviertete en orador</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-resaltar" href="#">Comprar entradas</a>
+                    <a class="nav-link text-resaltar" href="#" data-toggle="modal" data-target="#modalCompra">Comprar entradas</a>
                 </li>
             </ul>
             </div>
@@ -72,7 +72,7 @@
                   resultados. 
                 </p>
                 <a href="#" class="btn btn-outline-light">Quiero ser orador</a>
-                <button type="button" class="btn btn-success btn-overlay">Comprar entradas</button>
+                <button type="button" class="btn btn-success btn-overlay" data-toggle="modal" data-target="#modalCompra">Comprar entradas</button>
               </div>
             </div>
           </div>
@@ -94,6 +94,19 @@
           </h2>
     </div>      
           <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+              <div class="card">
+                <img src="assets/speakers/Diana.jpg" class="card-img-top" alt="foto Sacha">
+                <div class="card-body">
+                  <div class="badges mb-2">
+                    <span class="badge badge-success">PHP</span>
+                    <span class="badge badge-dark">My Sql</span>
+                  </div>
+                  <h5 class="card-title mb-0">Diana Florez</h5>
+                  <p class="card-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                </div>
+              </div>
+            </div>
             <div class="col-12 col-md-6 col-lg-3 mb-4">
               <div class="card">
                 <img src="assets/speakers/lennin.jpg" class="card-img-top" alt="foto Sacha">
@@ -133,19 +146,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-              <div class="card">
-                <img src="assets/speakers/Diana.jpg" class="card-img-top" alt="foto Sacha">
-                <div class="card-body">
-                  <div class="badges mb-2">
-                    <span class="badge badge-success">PHP</span>
-                    <span class="badge badge-dark">My Sql</span>
-                  </div>
-                  <h5 class="card-title mb-0">Diana Florez</h5>
-                  <p class="card-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       
@@ -246,6 +247,42 @@
       </div>
   </footer>
 <!-- Fin footer -->
+<!-- Modal -->
+  <div class="modal fade" id="modalCompra" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Comprar entradas</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <div class="form-row">
+              <div class="form-proup col">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="alert alert-warning" role="alert">
+            Recibir&aacute;s un correo electr&oacute;nico con tus credenciales de acceso.
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary btn-overlay">Guardar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Fin modal -->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
