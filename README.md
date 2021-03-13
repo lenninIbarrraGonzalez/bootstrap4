@@ -1,7 +1,26 @@
-#bootstrap4
+# Bootstrap
+
+## Comenzando 🚀
+
+## Despliegue 📦
+- Descarga o clona el proyecto y ejecutar el archivo index.html
+- https://lenninibarrragonzalez.github.io/bootstrap4/
 
 
-Ejecuta el index.html en un explorador
+## Tecnlogias 🔧
+- Bootstrap
+- Html
 
-Publicando en github page
-https://lenninibarrragonzalez.github.io/bootstrap4/
+## sistema de diseño 🚀
+
+## Autor ✒️
+
+- **Lennin Ibarra** - _Front-end developer_ - [Lennin Ibarra](https://github.com/lenninIbarrraGonzalez)
+
+## Licencia 📄
+Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](https://wikis.fdi.ucm.es/ELP/Licencia_MIT) para detalles
+
+![alt text](https://github.com/lenninIbarrraGonzalez/bootstrap4/blob/master/imagen.png)
+
+
+
